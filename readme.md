@@ -56,4 +56,11 @@ Your branch is up to date with 'origin/main'.
 
 
 ```
-
+## Bundle 3 ### Exercise 2
+- Create new branch from the `ft/faq-page` branch named `ft/home-page-redesign`
+- Go back to the `main` branch and make some changes there
+- Commit and push them
+- go back to the `ft/home-page-redesign` branch
+- Using git rebase, rebase your branch to `main`
+- Add changes to the home page and commit push them
+- Create a PR for the changes.
