@@ -28,6 +28,23 @@ eligr@Shema MINGW64 ~/git-exercises (ft/service-redesign)
 $ git checkout -b ft/team-page
 Switched to a new branch 'ft/team-page'
 
+eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git add --all
+
+eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git status
+On branch ft/team-page
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   readme.md
+        new file:   team.html
+
+
+eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git commit -m "new change in team"
+[ft/team-page a729489] new change in team
+ 2 files changed, 38 insertions(+), 41 deletions(-)
+ create mode 100644 team.html
 
 
 ```
