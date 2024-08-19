@@ -40,7 +40,47 @@ eligr@Shema MINGW64 ~/git-exercises (ft/service-redesign)
 $ git checkout main
 Switched to branch 'main'
 Your branch is up to date with 'origin/main'.
-
-
 ```
+## cherry-pick
+```bash
+$ git cherry-pick a7294891b4f077db26990e242abad3d58d8a61d2
+Auto-merging readme.md
+CONFLICT (content): Merge conflict in readme.md
+error: could not apply a729489... new change in team
+hint: After resolving the conflicts, mark them with
+hint: "git add/rm <pathspec>", then run
+hint: "git cherry-pick --continue".
+hint: You can instead skip this commit with "git cherry-pick --skip".
+hint: To abort and get back to the state before "git cherry-pick",
+hint: run "git cherry-pick --abort".
+hint: Disable this message with "git config advice.mergeConflict false"
 
+eligr@Shema MINGW64 ~/git-exercises (ft/contact-page|CHERRY-PICKING)
+$ git status
+On branch ft/contact-page
+You are currently cherry-picking commit a729489.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes to be committed:
+        modified:   readme.md
+        new file:   team.html
+
+
+eligr@Shema MINGW64 ~/git-exercises (ft/contact-page|CHERRY-PICKING)
+$ git add contact.html
+
+eligr@Shema MINGW64 ~/git-exercises (ft/contact-page|CHERRY-PICKING)
+$ git status
+On branch ft/contact-page
+You are currently cherry-picking commit a729489.
+  (all conflicts fixed: run "git cherry-pick --continue")
+  (use "git cherry-pick --skip" to skip this patch)
+  (use "git cherry-pick --abort" to cancel the cherry-pick operation)
+
+Changes to be committed:
+        new file:   contact.html
+        modified:   readme.md
+        new file:   team.html
+```
