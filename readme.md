@@ -23,8 +23,8 @@ this project will be used for series git exercise
 - Push the changes and create a new PR
 
 
-#### WORKOUT
-```bash  
+#### WORKOUT  
+```bash
 eligr@Shema MINGW64 ~/git-exercises (main)
 $ git checkout -b ft/service-redesign 
 Switched to a new branch 'ft/service-redesign
@@ -33,7 +33,8 @@ Switched to a new branch 'ft/service-redesign
 
 eligr@Shema MINGW64 ~/git-exercises (ft/service-redesign)
 $ git checkout -b ft/team-page
-Switched to a new branch 'ft/team-page'
+Switched to a new branch 'ft/team-page
+
 
 eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
 $ git add --all
@@ -86,6 +87,7 @@ remote:
 To https://github.com/Shema486/git-exercises.git
  * [new branch]      ft/service-redesign -> ft/service-redesign
 branch 'ft/service-redesign' set up to track 'origin/ft/service-redesign'.
+
 
 
 eligr@Shema MINGW64 ~/git-exercises (ft/service-redesign)
