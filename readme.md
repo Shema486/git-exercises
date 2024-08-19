@@ -45,6 +45,65 @@ $ git commit -m "new change in team"
 [ft/team-page a729489] new change in team
  2 files changed, 38 insertions(+), 41 deletions(-)
  create mode 100644 team.html
+eligr@Shema MINGW64 ~/git-exercises (ft/contact-page)
+$ git checkout ft/team-page
+Switched to branch 'ft/team-page'
+Your branch is ahead of 'origin/ft/team-page' by 1 commit.
+  (use "git push" to publish your local commits)
 
+eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+eligr@Shema MINGW64 ~/git-exercises (main)
+$ git checkout ft/team-page
+Switched to branch 'ft/team-page'
+Your branch is ahead of 'origin/ft/team-page' by 1 commit.
+  (use "git push" to publish your local commits)
+
+  eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+eligr@Shema MINGW64 ~/git-exercises (main)
+$ git checkout ft/team-page
+Switched to branch 'ft/team-page'
+Your branch is ahead of 'origin/ft/team-page' by 1 commit.
+  (use "git push" to publish your local commits)
+
+eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git checkout -b c
+Switched to a new branch 'c'
+
+eligr@Shema MINGW64 ~/git-exercises (c)
+$ git checkout ft/team-page
+Switched to branch 'ft/team-page'
+Your branch is ahead of 'origin/ft/team-page' by 1 commit.
+  (use "git push" to publish your local commits)
+
+eligr@Shema MINGW64 ~/git-exercises (ft/team-page)
+$ git log
+commit 45032b81dd5349d3a5d4b18c9b8a56c9cd1dafcd (HEAD -> ft/team-page, c)
+Author: Shema <ashema330@gmail.com>
+Date:   Mon Aug 19 19:10:11 2024 +0200
+
+    m
+
+commit a7294891b4f077db26990e242abad3d58d8a61d2 (origin/ft/team-page)
+Author: Shema <ashema330@gmail.com>
+Date:   Mon Aug 19 18:54:09 2024 +0200
+
+    new change in team
+
+commit f930f24ed47cc7cd711b8102ab59f7798e19371a (ft/service-redesign)
+Author: Shema <ashema330@gmail.com>
+Date:   Mon Aug 19 17:56:57 2024 +0200
+
+    adding in readme
+
+commit fb41ccd0025a91b8698a1c23979407af0c696283 (origin/ft/service-redesign)
+:
 
 ```
